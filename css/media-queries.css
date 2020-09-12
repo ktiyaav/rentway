@@ -1,0 +1,217 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+/* slider */
+.carousel-caption h3 {
+  font-size: 45px;
+}
+
+
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+/* slider */
+
+.carousel-caption h2 {
+  font-size: 55px;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+}
+
+
+
+.contact-form .name-email input {
+  margin-right: 0;
+  width: 100%;
+}
+
+.footer-social {
+  margin-top: 45px;
+}
+
+/* footer */
+
+.footer-single {
+  margin-bottom: 30px;
+}
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+/* slider */
+.carousel-caption h2 {
+  font-size: 35px;
+}
+
+.carousel-caption h3 {
+  font-size: 22px;
+}
+
+.carousel-caption p {
+  font-size: 14px;
+}
+/* footer */
+
+.footer-single {
+  margin-bottom: 30px;
+}
+.footer-widgets{
+	display: none;
+}
+#navigation{
+	display: none;
+}
+.search-form input[type='text'] {
+    width: 73%;
+    padding: 10px;
+}
+.betw{
+	margin-top: -110px;
+	margin-bottom: 100px;
+}
+input, select, textarea{
+	padding:1.5px;
+	font-size: 11px;
+}
+.content-home {
+    padding-top: 0px !important;
+	margin-top : -60px;
+}
+.social-links {
+	display: none;
+}
+.text-center {
+	font-family: Montserrat;
+	font-size: 12px;
+    text-transform: uppercase;
+}
+.service-desc h3 {
+    margin-bottom: 12px;
+}
+.service-desc {
+    padding-bottom: 10px;
+}
+.banner-top {
+    text-align: center;
+    width: 100%;
+    height: 18px;
+    display: block;
+    background: url(../img/sh.jpg)no-repeat;
+    padding: 2px;
+    background-size: cover;
+}
+.banner-top h3 {
+	font-family: Raleway;
+	text-transform: uppercase;
+    font-size: .8em;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+}
+.banner-top h4 {
+	display: none;
+}
+#content #left, #content #right {
+    width: auto;
+}
+#content #image, #content #right {
+    float: left;
+    margin: 0 2%;
+}
+#content #left ul li {
+    padding-bottom: 21px;
+	width: 175px;
+}
+#content #description-item {
+    margin-left: 0;
+	float: right;
+	margin: 0 2%;
+    width: 45%;
+}
+
+#content #right {
+	border: 0px !important;
+    margin-left: 0;
+	float: right;
+	margin: 0 2%;
+}
+
+}
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.banner-top {
+    text-align: center;
+    width: 100%;
+    height: 18px;
+    display: block;
+    background: url(../img/sh.jpg)no-repeat;
+    padding: 2px;
+    background-size: cover;
+}
+.banner-top h3 {
+	font-family: Raleway;
+	text-transform: uppercase;
+    font-size: .8em;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+}
+.banner-top h4 {
+	display: none;
+}
+.content-home {
+    padding-top: 0px !important;
+}
+.search-form input[type='text'] {
+    width: 63%;
+    padding: 6px;
+}
+input, select, textarea{
+	padding:5px;
+	font-size: 12px;
+}
+#content #left ul li .info {
+    padding: 0px 0px 0 3px;
+}
+#content #left, #content #right {
+    border: none;
+}
+#content #left ul li {
+    padding-bottom: 21px;
+	width: 175px;
+}
+.betw{
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+#content #left, #content #right {
+    width: auto;
+}
+.footer-widgets{
+	display: none;
+}
+#navigation{
+	display: none;
+}
+}
